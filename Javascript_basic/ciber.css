@@ -1,0 +1,66 @@
+
+.nivell3{
+    width: 30%;
+    height: 400px;
+}
+#calculadora{
+   
+    width: 80%;
+    height: 80%;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 3px solid turquoise;
+    filter: blur(1px);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    animation: glowing 20s linear infinite;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;   
+    background-size: 400%;
+}
+
+.fila{
+    width: auto;
+    height: 50px;
+}
+#valor_numero{
+    height: 50px;
+    width: 220px;
+    margin-left: 15px;
+    background-color: lavenderblush;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: purple;
+    text-align: center; 
+    font-size:x-large;
+    font-weight: bolder;
+    color: purple;
+    outline: none;
+}
+.tecla{
+    width: 80px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    text-align: center; 
+    font-size:x-large;
+    font-weight: bolder;
+    color: purple;
+    background-color:lavenderblush;
+    outline: none;
+}
+.tecla:active{
+    background-color: plum;
+    transform: translateY(3px);
+
+}
+#igual{
+    width: 100%;
+}
+.limpiar{
+    height: 50%;
+} 
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 200% 0; }
+    100% { background-position: 0 0; }
+}
