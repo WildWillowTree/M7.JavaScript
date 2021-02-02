@@ -1,0 +1,19 @@
+.contenidor{
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 50px;
+}
+button{
+    margin: 1em;
+    width: 10em;
+    height: 5em;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;    
+}
+p{
+    font-size: 1.5em;    
+    color:pink;
+}
