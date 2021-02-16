@@ -33,9 +33,9 @@ html,body{
     display: none;
 }
 #rating label{
-    font-size: 40px;
+    font-size: 60px;
     color: teal;
-    padding: 10px;
+    padding: 20px;
     float: right;
     transition: all 0.2s ease;
 }
@@ -44,12 +44,12 @@ html,body{
 }
 #rating input:checked ~label{
     color: palevioletred;
-    text-shadow: 0  0 100px goldenrod,-1px 0 gold, 1px 0 gold, 0 -1px gold;
-    font-size: 41px;
+    text-shadow: 0  0 60px goldenrod,-1px 0 gold, 1px 0 gold, 0 -1px gold;
+    font-size: 61px;
 }
 input#rate-5:checked ~label{
-    text-shadow: 0  0 40px gold,-1px 0 gold, 1px 0 gold, 0 -1px gold;
-    font-size: 41px;
+    text-shadow: 0  0 60px goldenrod, 0  0 40px gold,-1px 0 gold, 1px 0 gold, 0 -1px gold;
+    font-size: 61px;
 }
 
 
